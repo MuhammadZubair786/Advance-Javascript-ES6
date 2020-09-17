@@ -278,4 +278,25 @@ fetch('http://jsonplaceholder.typicode.com/todos/1')
     
   }
 
-  
+
+  //Constructor In ES5 >>Class
+//   function School(name,RollNo){
+//       this.name=name
+//       this.RollNo=RollNo
+//   }
+
+//   let std1=new School('zubair',12)
+//   console.log(std1)
+
+
+//   Class in ES6
+
+class School{
+    constructor(name,RollNo){
+        this.name=name
+        this.RollNo=RollNo
+    }
+}
+
+let std1=new School('zubair',12)
+console.log(std1)
